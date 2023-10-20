@@ -12,17 +12,23 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: #fff;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
-  --text-color: #000;
+  --color1: #011526;
+  --color2: #325A73;
+  --color3: #EBF0F2;
+  --color4: #a3babf;
+  --color45: #a3babf50;
+  --color5: #BF9B6F;
+  --link-color: var(--color2);
+  --link-hover-color: var(--color5);
+  --background-color: var(--color3);
+  --overlay-background-color: var(--color45);
+  --highlight-background-color: var(--color45);
+  --text-color: var(--color1);
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: 'Figtree', sans-serif;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: var(--body-font-family);
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -43,10 +49,10 @@
 }
 
 @font-face {
-  font-family: roboto-fallback;
+  font-family: figtree-fallback;
   size-adjust: 100.06%;
   ascent-override: 95%;
-  src: local('Arial');
+  src: local('Figtree');
 }
 
 
